@@ -67,7 +67,7 @@ fpm -f \
     --after-install $BASEDIR/scripts/postinstall.sh \
     --after-remove $BASEDIR/scripts/postuninstall.sh \
     --url http://elastalert.readthedocs.io/en/latest \
-    --maintainer 'amine.benseddik@gmail.com' \
+    --maintainer 'adryeh' \
     --description 'ElastAlert - Easy & Flexible Alerting With Elasticsearch.' \
     --license 'Apache 2.0' \
     --package $BASEDIR \
