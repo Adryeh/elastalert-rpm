@@ -1,0 +1,5 @@
+---
+- name: "Install Elastalert RPM"
+  yum:
+     name: /build/elastalert-0.1.18-1.el7.x86_64.rpm
+     state: present
